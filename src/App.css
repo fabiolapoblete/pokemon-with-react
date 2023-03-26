@@ -1,0 +1,39 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.pokemonsContainer {
+  display: flex;
+  gap: 10rem;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.pokemonCard {
+  background-color: #fcfcfc;
+  color: #000;
+  display: flex;
+  align-items: flex-end;
+  gap: 2rem;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.pokemonsLists {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 250px;
+}
